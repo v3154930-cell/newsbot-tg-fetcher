@@ -42,30 +42,47 @@ jobs:
               "marketplace_biz",
               "Apetecom",
               "crmmarketplace",
+
+              # Кандидаты на расширение. Если канал не откроется — workflow не падает.
+              "sellerden",
+              "marketplaceguru",
+              "mpstats",
+              "moneyplace",
           ]
+
+          PER_CHANNEL_LIMIT = 25
+          TOTAL_LIMIT = 150
 
           def clean_text(text):
               text = html.unescape(text or "")
               text = re.sub(r"\s+", " ", text).strip()
               return text
 
-          def title_from_text(text, max_len=140):
+          def title_from_text(text, max_len=180):
               text = clean_text(text)
               if len(text) <= max_len:
                   return text
               return text[:max_len].rstrip() + "..."
 
-          def fetch_channel(channel, limit=10):
+          def parse_dt(value):
+              if not value:
+                  return None
+              try:
+                  return datetime.fromisoformat(value.replace("Z", "+00:00"))
+              except Exception:
+                  return None
+
+          def fetch_channel(channel, limit=PER_CHANNEL_LIMIT):
               url = f"https://t.me/s/{channel}"
               headers = {
                   "User-Agent": "Mozilla/5.0 AppleWebKit/537.36 Chrome/120 Safari/537.36"
               }
 
-              resp = requests.get(url, headers=headers, timeout=20)
+              resp = requests.get(url, headers=headers, timeout=25)
               resp.raise_for_status()
 
               soup = BeautifulSoup(resp.text, "lxml")
-              posts = []
+              parsed = []
 
               for msg in soup.select(".tgme_widget_message"):
                   msg_id = msg.get("data-post") or ""
@@ -82,7 +99,7 @@ jobs:
                   if time_el and time_el.get("datetime"):
                       published_at = time_el.get("datetime")
 
-                  posts.append({
+                  parsed.append({
                       "title": title_from_text(text),
                       "description": text,
                       "link": link,
@@ -93,20 +110,27 @@ jobs:
                       "fetched_at": datetime.now(timezone.utc).isoformat(),
                   })
 
-                  if len(posts) >= limit:
-                      break
+              parsed.sort(
+                  key=lambda p: parse_dt(p.get("published_at")) or datetime.min.replace(tzinfo=timezone.utc),
+                  reverse=True,
+              )
 
-              return posts
+              return parsed[:limit]
 
           all_posts = []
 
           for channel in CHANNELS:
               try:
-                  posts = fetch_channel(channel, limit=10)
+                  posts = fetch_channel(channel, limit=PER_CHANNEL_LIMIT)
                   print(channel, len(posts))
+                  if posts:
+                      newest = posts[0].get("published_at")
+                      oldest = posts[-1].get("published_at")
+                      print("  newest:", newest)
+                      print("  oldest:", oldest)
                   all_posts.extend(posts)
               except Exception as e:
-                  print(channel, "ERROR", e)
+                  print(channel, "ERROR", repr(e))
 
           seen = set()
           deduped = []
@@ -118,9 +142,19 @@ jobs:
               seen.add(key)
               deduped.append(p)
 
+          deduped.sort(
+              key=lambda p: parse_dt(p.get("published_at")) or datetime.min.replace(tzinfo=timezone.utc),
+              reverse=True,
+          )
+
+          deduped = deduped[:TOTAL_LIMIT]
+
           data = {
               "generated_at": datetime.now(timezone.utc).isoformat(),
               "count": len(deduped),
+              "channels": CHANNELS,
+              "per_channel_limit": PER_CHANNEL_LIMIT,
+              "total_limit": TOTAL_LIMIT,
               "items": deduped,
           }
 
