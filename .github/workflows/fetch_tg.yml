@@ -166,10 +166,183 @@ jobs:
 
           python fetch_tg.py
 
-      - name: Commit tg_posts.json
+      - name: Fetch official marketplace pages
+        run: |
+          cat > fetch_official.py << 'PY'
+          import json
+          import re
+          import html
+          import hashlib
+          from datetime import datetime, timezone
+
+          import requests
+          from bs4 import BeautifulSoup
+
+          OFFICIAL_CHANNELS = [
+              {
+                  "source_name": "OFFICIAL: Ozon Marketplace TG",
+                  "username": "ozonmarketplace",
+                  "marketplace": "ozon",
+                  "url": "https://t.me/s/ozonmarketplace",
+              },
+              {
+                  "source_name": "OFFICIAL: WB Partners TG",
+                  "username": "wbsellerofficial",
+                  "marketplace": "wildberries",
+                  "url": "https://t.me/s/wbsellerofficial",
+              },
+              {
+                  "source_name": "OFFICIAL: WB API Notifications TG",
+                  "username": "wb_api_notifications",
+                  "marketplace": "wildberries",
+                  "url": "https://t.me/s/wb_api_notifications",
+              },
+              {
+                  "source_name": "OFFICIAL: Yandex Market Sellers TG",
+                  "username": "market_marketplace",
+                  "marketplace": "yandex_market",
+                  "url": "https://t.me/s/market_marketplace",
+              },
+              {
+                  "source_name": "OFFICIAL: Yandex Market API TG",
+                  "username": "yandex_market_api",
+                  "marketplace": "yandex_market",
+                  "url": "https://t.me/s/yandex_market_api",
+              },
+          ]
+
+          PER_CHANNEL_LIMIT = 25
+          TOTAL_LIMIT = 150
+
+          def clean_text(text):
+              text = html.unescape(text or "")
+              text = re.sub(r"\s+", " ", text).strip()
+              return text
+
+          def title_from_text(text, max_len=180):
+              text = clean_text(text)
+              if len(text) <= max_len:
+                  return text
+              return text[:max_len].rstrip() + "..."
+
+          def parse_dt(value):
+              if not value:
+                  return None
+              try:
+                  return datetime.fromisoformat(value.replace("Z", "+00:00"))
+              except Exception:
+                  return None
+
+          def fetch_official_channel(source):
+              print("SOURCE:", source["source_name"], source["url"])
+
+              headers = {
+                  "User-Agent": "Mozilla/5.0 AppleWebKit/537.36 Chrome/120 Safari/537.36"
+              }
+
+              try:
+                  resp = requests.get(source["url"], headers=headers, timeout=25)
+                  resp.raise_for_status()
+              except Exception as e:
+                  print(source["username"], "ERROR", repr(e))
+                  return []
+
+              soup = BeautifulSoup(resp.text, "lxml")
+              parsed = []
+
+              for msg in soup.select(".tgme_widget_message"):
+                  data_post = msg.get("data-post") or ""
+                  if "/" not in data_post:
+                      continue
+
+                  username, post_id = data_post.split("/", 1)
+                  if username.lower() != source["username"].lower():
+                      continue
+
+                  text_el = msg.select_one(".tgme_widget_message_text")
+                  time_el = msg.select_one("time")
+
+                  text = clean_text(text_el.get_text(" ", strip=True) if text_el else "")
+                  if not text:
+                      continue
+
+                  published_at = ""
+                  if time_el and time_el.get("datetime"):
+                      published_at = time_el.get("datetime")
+
+                  link = f"https://t.me/{source['username']}/{post_id}"
+                  title = title_from_text(text)
+
+                  content_hash = hashlib.sha256(
+                      (source["source_name"] + post_id + text).encode("utf-8", errors="ignore")
+                  ).hexdigest()
+
+                  parsed.append({
+                      "source_name": source["source_name"],
+                      "username": source["username"],
+                      "marketplace": source["marketplace"],
+                      "post_id": post_id,
+                      "title": title,
+                      "text": text,
+                      "link": link,
+                      "published_at": published_at,
+                      "content_hash": content_hash,
+                      "fetched_at": datetime.now(timezone.utc).isoformat(),
+                  })
+
+              parsed.sort(
+                  key=lambda p: parse_dt(p.get("published_at")) or datetime.min.replace(tzinfo=timezone.utc),
+                  reverse=True,
+              )
+
+              print("posts parsed:", len(parsed))
+              return parsed[:PER_CHANNEL_LIMIT]
+
+          all_posts = []
+
+          for source in OFFICIAL_CHANNELS:
+              all_posts.extend(fetch_official_channel(source))
+
+          seen = set()
+          deduped = []
+
+          for p in all_posts:
+              key = p.get("content_hash") or p.get("link") or (
+                  p.get("source_name", "") + "|" + p.get("post_id", "")
+              )
+              if key in seen:
+                  continue
+              seen.add(key)
+              deduped.append(p)
+
+          deduped.sort(
+              key=lambda p: parse_dt(p.get("published_at")) or datetime.min.replace(tzinfo=timezone.utc),
+              reverse=True,
+          )
+
+          deduped = deduped[:TOTAL_LIMIT]
+
+          data = {
+              "generated_at": datetime.now(timezone.utc).isoformat(),
+              "count": len(deduped),
+              "channels": OFFICIAL_CHANNELS,
+              "per_channel_limit": PER_CHANNEL_LIMIT,
+              "total_limit": TOTAL_LIMIT,
+              "posts": deduped,
+          }
+
+          with open("official_marketplace_posts.json", "w", encoding="utf-8") as f:
+              json.dump(data, f, ensure_ascii=False, indent=2)
+
+          print("official_marketplace_posts.json saved", len(deduped), "posts")
+          PY
+
+          python fetch_official.py
+
+      - name: Commit JSON files
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add tg_posts.json
+          git add tg_posts.json official_marketplace_posts.json
           git commit -m "Update Telegram posts" || echo "No changes"
           git push
