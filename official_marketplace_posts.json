@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T05:04:34.883638+00:00",
+  "generated_at": "2026-06-22T11:15:19.274298+00:00",
   "count": 81,
   "channels": [
     {
@@ -40,13 +40,37 @@
       "source_name": "OFFICIAL: WB Partners TG",
       "username": "wbsellerofficial",
       "marketplace": "wildberries",
+      "post_id": "6467",
+      "title": "Масштабирование бизнеса: на что обратить внимание Почему рост продаж не всегда приводит к росту прибыли? Как не потерять управляемость при увеличении ассортимента? Что точно стоит...",
+      "text": "Масштабирование бизнеса: на что обратить внимание Почему рост продаж не всегда приводит к росту прибыли? Как не потерять управляемость при увеличении ассортимента? Что точно стоит проверить до масштабирования? Разберём эти и другие вопросы на онлайн-встрече для продавцов: 🌟 Какие зоны роста продавцы чаще всего игнорируют при масштабировании бизнеса. 🌟 Как управлять ассортиментом и принимать решения по расширению товарной матрицы. 🌟 Как выстроить систему контроля продвижения и ключевых показателей. Эксперты: Екатерина Голубова — менеджер продукта WB Продвижение Артём Попов — эксперт по маркетплейсам MP Manager Ждём всех 25 июня в 14:00 ➡️ региструйтесь на PRO WB WB Партнёры: теперь в МАХ",
+      "link": "https://t.me/wbsellerofficial/6467",
+      "published_at": "2026-06-22T11:15:01+00:00",
+      "content_hash": "b9564198e1abd4c40ad55a753597cb8efb1bc09f37817876ba15543c53dc4ab5",
+      "fetched_at": "2026-06-22T11:15:16.952607+00:00"
+    },
+    {
+      "source_name": "OFFICIAL: WB API Notifications TG",
+      "username": "wb_api_notifications",
+      "marketplace": "wildberries",
+      "post_id": "428",
+      "title": "#general Изменения в Управлении пользователями продавца Удалили неактуальные доступы wbPoint и feedbacksQuestions в параметрах запроса методов POST /api/v1/invite и PUT /api/v1/use...",
+      "text": "#general Изменения в Управлении пользователями продавца Удалили неактуальные доступы wbPoint и feedbacksQuestions в параметрах запроса методов POST /api/v1/invite и PUT /api/v1/users/access , а также в ответе метода GET /api/v1/users . 📖 Журнал изменений WB API 💬 Сообщество WB API С уважением, команда WB API 🔗 Читайте в МАКС Changes in Seller User Management Deleted the deprecated wbPoint and feedbacksQuestions accesses in the request parameters of the POST /api/v1/invite and PUT/api/v1/users/access methods, and in the response of the GET /api/v1/users method. 📖 WB API Release Notes Best regards, WB API team",
+      "link": "https://t.me/wb_api_notifications/428",
+      "published_at": "2026-06-22T07:48:44+00:00",
+      "content_hash": "2f8ac217aad78867eac094d857330dbb1f4836d39cc8cc1c2a620c8f2a773881",
+      "fetched_at": "2026-06-22T11:15:17.559892+00:00"
+    },
+    {
+      "source_name": "OFFICIAL: WB Partners TG",
+      "username": "wbsellerofficial",
+      "marketplace": "wildberries",
       "post_id": "6466",
       "title": "#дайджест 👌 Новый сервис «Бренд-зона» : оформляйте страницы на WB в своём стиле, знакомьте покупателей с ассортиментом и увеличивайте продажи. 👌 ИИ-поиск в справочном центре : полу...",
       "text": "#дайджест 👌 Новый сервис «Бренд-зона» : оформляйте страницы на WB в своём стиле, знакомьте покупателей с ассортиментом и увеличивайте продажи. 👌 ИИ-поиск в справочном центре : получайте быстрые ответы от нейросети WB и экономьте время на поиске информации. 👌 Сервис «Помощник» : используйте нейросеть для анализа данных на портале —аналитические отчёты легко и быстро. 👌 Конструктор тарифов : новая функция позволяет устанавливать разные цены для разных размеров товара, что поможет вам гибче управлять ценами и привлекать покупателей. 👌 Подменные артикулы : создавайте массово подменные артикулы для нескольких товаров, экономя время, и планируйте крупные кампании по продвижению без ручного ввода данных. 👌 Габариты : развенчиваем мифы ! Ответили на самые популярные вопросы по габаритам товаров. 👌 Мероприятия для предпринимателей : расписание на следующую неделю доступно по ссылке. 👌 Подборка статей на PRO WB : для новичков объясняем , что такое конверсия и как её считать, а также разбираемся с маркировкой косметики, бытовой химии и игрушек. 👌 Интервью с партнёрами : Владлен Строкань делится мнением о том, как меняется рынок маркетплейсов, а Марина Ерошевская рассказывает, как запустить бизнес ПВЗ в 2026 году. 👌 Розыгрыши для подписчиков WB Партнёры : не упустите шанс выиграть призы среди продавцов! Призы разыграем 26 июня. WB Партнёры: теперь в МАХ",
       "link": "https://t.me/wbsellerofficial/6466",
       "published_at": "2026-06-21T11:03:01+00:00",
       "content_hash": "0f2824d0f96991e13e906cad65ebf35426ba72e25d32d2b7fccbe9f85c302966",
-      "fetched_at": "2026-06-22T05:04:32.253519+00:00"
+      "fetched_at": "2026-06-22T11:15:16.952284+00:00"
     },
     {
       "source_name": "OFFICIAL: Ozon Marketplace TG",
@@ -58,7 +82,7 @@
       "link": "https://t.me/ozonmarketplace/3158",
       "published_at": "2026-06-20T08:01:16+00:00",
       "content_hash": "e6dd1606c209f284f4aff8620d5542daf7500062d403022ec2b7525c9911d6f6",
-      "fetched_at": "2026-06-22T05:04:31.337311+00:00"
+      "fetched_at": "2026-06-22T11:15:16.334633+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market Sellers TG",
@@ -70,7 +94,7 @@
       "link": "https://t.me/market_marketplace/2799",
       "published_at": "2026-06-19T15:00:09+00:00",
       "content_hash": "55ffc479d91d79bdf82e7360914491d761f3e4b42dc70ccdca1020d58d1d5fdf",
-      "fetched_at": "2026-06-22T05:04:33.799230+00:00"
+      "fetched_at": "2026-06-22T11:15:18.600130+00:00"
     },
     {
       "source_name": "OFFICIAL: WB Partners TG",
@@ -82,7 +106,7 @@
       "link": "https://t.me/wbsellerofficial/6465",
       "published_at": "2026-06-19T14:58:01+00:00",
       "content_hash": "b4e5a90b1a3b63bc7f2133d3f5321ea5c071b92de311c374e6a4e374e5d6f1f4",
-      "fetched_at": "2026-06-22T05:04:32.253007+00:00"
+      "fetched_at": "2026-06-22T11:15:16.951748+00:00"
     },
     {
       "source_name": "OFFICIAL: WB Partners TG",
@@ -94,7 +118,7 @@
       "link": "https://t.me/wbsellerofficial/6464",
       "published_at": "2026-06-19T14:04:20+00:00",
       "content_hash": "df355428aec32ea1fc84f4ddb3e062f528641a3682bade8f5b24afd732f1f211",
-      "fetched_at": "2026-06-22T05:04:32.252688+00:00"
+      "fetched_at": "2026-06-22T11:15:16.951409+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market Sellers TG",
@@ -106,7 +130,7 @@
       "link": "https://t.me/market_marketplace/2798",
       "published_at": "2026-06-19T14:00:56+00:00",
       "content_hash": "1cdc610f9518cb81047309490d5a80cf94695e239348f9471a4d8da7adb3ef60",
-      "fetched_at": "2026-06-22T05:04:33.798791+00:00"
+      "fetched_at": "2026-06-22T11:15:18.599657+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market API TG",
@@ -118,7 +142,7 @@
       "link": "https://t.me/yandex_market_api/275",
       "published_at": "2026-06-19T12:57:52+00:00",
       "content_hash": "9cf6b3432a24fad4e69138364c8907731c85ef60ec380518a6da9eb7a986cd51",
-      "fetched_at": "2026-06-22T05:04:34.882684+00:00"
+      "fetched_at": "2026-06-22T11:15:19.273021+00:00"
     },
     {
       "source_name": "OFFICIAL: WB Partners TG",
@@ -130,7 +154,7 @@
       "link": "https://t.me/wbsellerofficial/6463",
       "published_at": "2026-06-19T12:01:58+00:00",
       "content_hash": "ebc1b5a7c75cd05cb1343e5e6c2cfbda11d0544ae73243839c6b551798c55bca",
-      "fetched_at": "2026-06-22T05:04:32.252167+00:00"
+      "fetched_at": "2026-06-22T11:15:16.950857+00:00"
     },
     {
       "source_name": "OFFICIAL: WB Partners TG",
@@ -142,7 +166,7 @@
       "link": "https://t.me/wbsellerofficial/6461",
       "published_at": "2026-06-19T10:23:48+00:00",
       "content_hash": "f2ed48d1e5f023c841cb237e1b94fa705b906b12dce422725fd224e03cb58c26",
-      "fetched_at": "2026-06-22T05:04:32.251328+00:00"
+      "fetched_at": "2026-06-22T11:15:16.949986+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market API TG",
@@ -154,7 +178,7 @@
       "link": "https://t.me/yandex_market_api/274",
       "published_at": "2026-06-19T04:25:44+00:00",
       "content_hash": "45adf20ac2c8bcd5b9c7c38ea342c274ff9e530327c2faeb325bbc6cae44cb05",
-      "fetched_at": "2026-06-22T05:04:34.882334+00:00"
+      "fetched_at": "2026-06-22T11:15:19.272674+00:00"
     },
     {
       "source_name": "OFFICIAL: Ozon Marketplace TG",
@@ -166,7 +190,7 @@
       "link": "https://t.me/ozonmarketplace/3157",
       "published_at": "2026-06-18T14:05:17+00:00",
       "content_hash": "93ea55c8fe6170546c45cc6c91b61a5e4c2e278ceddd9cf0f789eaaf3e808e7e",
-      "fetched_at": "2026-06-22T05:04:31.336700+00:00"
+      "fetched_at": "2026-06-22T11:15:16.333969+00:00"
     },
     {
       "source_name": "OFFICIAL: WB Partners TG",
@@ -178,7 +202,7 @@
       "link": "https://t.me/wbsellerofficial/6460",
       "published_at": "2026-06-18T12:58:01+00:00",
       "content_hash": "216a6008fd7eec0bab84874519e40b3cc7d8a2f7affa41ece912b0e60354ad72",
-      "fetched_at": "2026-06-22T05:04:32.251057+00:00"
+      "fetched_at": "2026-06-22T11:15:16.949710+00:00"
     },
     {
       "source_name": "OFFICIAL: WB Partners TG",
@@ -190,7 +214,7 @@
       "link": "https://t.me/wbsellerofficial/6459",
       "published_at": "2026-06-18T11:01:24+00:00",
       "content_hash": "c5c6ebd51ea7db0d89ed5f01a3634a203775421bb590c43b5e9c7d9e54e7f78c",
-      "fetched_at": "2026-06-22T05:04:32.250712+00:00"
+      "fetched_at": "2026-06-22T11:15:16.949349+00:00"
     },
     {
       "source_name": "OFFICIAL: Ozon Marketplace TG",
@@ -202,7 +226,7 @@
       "link": "https://t.me/ozonmarketplace/3156",
       "published_at": "2026-06-18T10:53:34+00:00",
       "content_hash": "b363ea9243e0cd1b562af3db6330d5e42b370a56c69d37616b021769316618f8",
-      "fetched_at": "2026-06-22T05:04:31.336179+00:00"
+      "fetched_at": "2026-06-22T11:15:16.333436+00:00"
     },
     {
       "source_name": "OFFICIAL: WB Partners TG",
@@ -214,7 +238,7 @@
       "link": "https://t.me/wbsellerofficial/6457",
       "published_at": "2026-06-18T09:05:44+00:00",
       "content_hash": "2a9ed378d7c81f0bd2b1a137e48c9132dd7228c3993ebd4220f6f5af535da8bd",
-      "fetched_at": "2026-06-22T05:04:32.250187+00:00"
+      "fetched_at": "2026-06-22T11:15:16.948785+00:00"
     },
     {
       "source_name": "OFFICIAL: WB Partners TG",
@@ -226,7 +250,7 @@
       "link": "https://t.me/wbsellerofficial/6456",
       "published_at": "2026-06-17T14:58:07+00:00",
       "content_hash": "70b672a3b88b219ceaa3185e4253147e7fad04e314e71ad548877910d044e7db",
-      "fetched_at": "2026-06-22T05:04:32.249927+00:00"
+      "fetched_at": "2026-06-22T11:15:16.948508+00:00"
     },
     {
       "source_name": "OFFICIAL: WB API Notifications TG",
@@ -238,7 +262,7 @@
       "link": "https://t.me/wb_api_notifications/427",
       "published_at": "2026-06-17T14:55:54+00:00",
       "content_hash": "9334459c7aef05d3a6ddc50c1f5337c7de65674aacff9c22b6fb922386f87a1d",
-      "fetched_at": "2026-06-22T05:04:32.937135+00:00"
+      "fetched_at": "2026-06-22T11:15:17.559560+00:00"
     },
     {
       "source_name": "OFFICIAL: WB API Notifications TG",
@@ -250,7 +274,7 @@
       "link": "https://t.me/wb_api_notifications/426",
       "published_at": "2026-06-17T14:26:59+00:00",
       "content_hash": "c5dc688d310599c2d367103a8a30fbed9d45021fb623ae9fa6042fec7d080252",
-      "fetched_at": "2026-06-22T05:04:32.936444+00:00"
+      "fetched_at": "2026-06-22T11:15:17.558838+00:00"
     },
     {
       "source_name": "OFFICIAL: WB Partners TG",
@@ -262,7 +286,7 @@
       "link": "https://t.me/wbsellerofficial/6453",
       "published_at": "2026-06-17T14:10:01+00:00",
       "content_hash": "ca5ac8721ff9f3220587f830dae1c9024811504557941d8bbb09029d183974e9",
-      "fetched_at": "2026-06-22T05:04:32.249614+00:00"
+      "fetched_at": "2026-06-22T11:15:16.948161+00:00"
     },
     {
       "source_name": "OFFICIAL: WB API Notifications TG",
@@ -274,7 +298,7 @@
       "link": "https://t.me/wb_api_notifications/425",
       "published_at": "2026-06-17T14:08:51+00:00",
       "content_hash": "7aa6bfbbd86a4c526139d66de0d4ead3aef075908932bb7f0d4596ed86fb6779",
-      "fetched_at": "2026-06-22T05:04:32.936197+00:00"
+      "fetched_at": "2026-06-22T11:15:17.558587+00:00"
     },
     {
       "source_name": "OFFICIAL: WB API Notifications TG",
@@ -286,7 +310,7 @@
       "link": "https://t.me/wb_api_notifications/424",
       "published_at": "2026-06-17T11:24:28+00:00",
       "content_hash": "73b382000986d21b9a8b87c5fa56bb8ec42b87a0d00393ba9a77c196f75558ef",
-      "fetched_at": "2026-06-22T05:04:32.935843+00:00"
+      "fetched_at": "2026-06-22T11:15:17.558219+00:00"
     },
     {
       "source_name": "OFFICIAL: WB Partners TG",
@@ -298,7 +322,7 @@
       "link": "https://t.me/wbsellerofficial/6452",
       "published_at": "2026-06-17T11:03:42+00:00",
       "content_hash": "1906766bdb5408fc99ead749ef3d3dead72282e444800c88a98f2402c23b64b9",
-      "fetched_at": "2026-06-22T05:04:32.249181+00:00"
+      "fetched_at": "2026-06-22T11:15:16.947680+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market Sellers TG",
@@ -310,7 +334,7 @@
       "link": "https://t.me/market_marketplace/2797",
       "published_at": "2026-06-17T10:21:22+00:00",
       "content_hash": "04edaee33b67b033fc983b02a310a185af770e6ef52a24886354a369fd706b22",
-      "fetched_at": "2026-06-22T05:04:33.798163+00:00"
+      "fetched_at": "2026-06-22T11:15:18.598984+00:00"
     },
     {
       "source_name": "OFFICIAL: Ozon Marketplace TG",
@@ -322,7 +346,7 @@
       "link": "https://t.me/ozonmarketplace/3155",
       "published_at": "2026-06-17T10:06:30+00:00",
       "content_hash": "44c1dd6d8555d5a0cb90c31bc3a0b3aa54ec0096303f50079dc1d5ab3d4c41ba",
-      "fetched_at": "2026-06-22T05:04:31.335804+00:00"
+      "fetched_at": "2026-06-22T11:15:16.333025+00:00"
     },
     {
       "source_name": "OFFICIAL: WB Partners TG",
@@ -334,7 +358,7 @@
       "link": "https://t.me/wbsellerofficial/6450",
       "published_at": "2026-06-17T08:56:22+00:00",
       "content_hash": "43432f81e586a83c12e9e4459a34fd6bf028a88b2ca866cd3018b6aa6204c0fd",
-      "fetched_at": "2026-06-22T05:04:32.248654+00:00"
+      "fetched_at": "2026-06-22T11:15:16.947098+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market API TG",
@@ -346,7 +370,7 @@
       "link": "https://t.me/yandex_market_api/273",
       "published_at": "2026-06-17T05:16:57+00:00",
       "content_hash": "4c3f0f87cb0e375b889d34d571d4e84ade648f96370dad9eddb88c92d5c0425e",
-      "fetched_at": "2026-06-22T05:04:34.882119+00:00"
+      "fetched_at": "2026-06-22T11:15:19.272459+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market Sellers TG",
@@ -358,7 +382,7 @@
       "link": "https://t.me/market_marketplace/2792",
       "published_at": "2026-06-16T11:35:07+00:00",
       "content_hash": "645a3f4f3c501df22e083533100878de873703881f66153cc9bdf6330a0fc903",
-      "fetched_at": "2026-06-22T05:04:33.797763+00:00"
+      "fetched_at": "2026-06-22T11:15:18.598555+00:00"
     },
     {
       "source_name": "OFFICIAL: Ozon Marketplace TG",
@@ -370,7 +394,7 @@
       "link": "https://t.me/ozonmarketplace/3153",
       "published_at": "2026-06-16T10:14:47+00:00",
       "content_hash": "1ed7a1d6a45087dfc71adbc110e68f2e35425fb90b776db0e7b84acf9c958220",
-      "fetched_at": "2026-06-22T05:04:31.335071+00:00"
+      "fetched_at": "2026-06-22T11:15:16.332223+00:00"
     },
     {
       "source_name": "OFFICIAL: WB Partners TG",
@@ -382,7 +406,7 @@
       "link": "https://t.me/wbsellerofficial/6449",
       "published_at": "2026-06-16T08:22:01+00:00",
       "content_hash": "dc6dfb2a40caf9447ade6371d8ce824c4b325f19d9809600a82ddaac421a9c24",
-      "fetched_at": "2026-06-22T05:04:32.248323+00:00"
+      "fetched_at": "2026-06-22T11:15:16.946727+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market Sellers TG",
@@ -394,19 +418,7 @@
       "link": "https://t.me/market_marketplace/2791",
       "published_at": "2026-06-15T15:02:28+00:00",
       "content_hash": "6fa8b79a2c871c220f8bf71791c66fc36de922fffb9859c0abadf333ea2a4a33",
-      "fetched_at": "2026-06-22T05:04:33.797354+00:00"
-    },
-    {
-      "source_name": "OFFICIAL: WB Partners TG",
-      "username": "wbsellerofficial",
-      "marketplace": "wildberries",
-      "post_id": "6447",
-      "title": "Откройте 100 000-й ПВЗ Wildberries и получите полмиллиона от WB Travel ✈️ WB ПВЗ запустил конкурс «Гонка за 100-тысячным ПВЗ» для тех, кто открывает новые пункты выдачи. Главный пр...",
-      "text": "Откройте 100 000-й ПВЗ Wildberries и получите полмиллиона от WB Travel ✈️ WB ПВЗ запустил конкурс «Гонка за 100-тысячным ПВЗ» для тех, кто открывает новые пункты выдачи. Главный приз: полмиллиона рублей на путешествие мечты для партнёра, который откроет 100 000 ПВЗ. Бонус: ещё 9 сертификатов по 50 000 ₽ на билеты для владельцев, открывших ПВЗ с 99 991 по 99 999. Успейте подать заявку! ➡️ Все условия здесь: https://pvz.wb.ru/promotion-pvz-100k-race Итоги подведём сразу после открытия рекордного ПВЗ Wildberries в России.",
-      "link": "https://t.me/wbsellerofficial/6447",
-      "published_at": "2026-06-15T14:54:01+00:00",
-      "content_hash": "a4bd0073f40e6578adcf8440b5746361f6f8cb3383f96b18740684b32c963dcb",
-      "fetched_at": "2026-06-22T05:04:32.247739+00:00"
+      "fetched_at": "2026-06-22T11:15:18.598134+00:00"
     },
     {
       "source_name": "OFFICIAL: WB API Notifications TG",
@@ -418,7 +430,7 @@
       "link": "https://t.me/wb_api_notifications/423",
       "published_at": "2026-06-15T14:08:45+00:00",
       "content_hash": "a293146e5aff8168ffab73c84bcb77ddf7af5bedc8b555735589a1d01fa192cc",
-      "fetched_at": "2026-06-22T05:04:32.935517+00:00"
+      "fetched_at": "2026-06-22T11:15:17.557864+00:00"
     },
     {
       "source_name": "OFFICIAL: Ozon Marketplace TG",
@@ -430,7 +442,7 @@
       "link": "https://t.me/ozonmarketplace/3152",
       "published_at": "2026-06-12T14:00:12+00:00",
       "content_hash": "b175063f20b356e156e8f4c1a449127035f7a10c62e4265ce2c04cfab6403a4c",
-      "fetched_at": "2026-06-22T05:04:31.334699+00:00"
+      "fetched_at": "2026-06-22T11:15:16.331819+00:00"
     },
     {
       "source_name": "OFFICIAL: Ozon Marketplace TG",
@@ -442,7 +454,7 @@
       "link": "https://t.me/ozonmarketplace/3147",
       "published_at": "2026-06-12T06:30:18+00:00",
       "content_hash": "2c89e67ecee23666ad06b9b306ce8f915c6b73f3a3a8fa7de71d78c0cdba755c",
-      "fetched_at": "2026-06-22T05:04:31.333321+00:00"
+      "fetched_at": "2026-06-22T11:15:16.330319+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market Sellers TG",
@@ -454,7 +466,7 @@
       "link": "https://t.me/market_marketplace/2789",
       "published_at": "2026-06-11T13:18:51+00:00",
       "content_hash": "543a0577861f4c917027f77a77d8defab4b4efd6f0c8b7127776419e10fbf564",
-      "fetched_at": "2026-06-22T05:04:33.797027+00:00"
+      "fetched_at": "2026-06-22T11:15:18.597781+00:00"
     },
     {
       "source_name": "OFFICIAL: WB API Notifications TG",
@@ -466,7 +478,7 @@
       "link": "https://t.me/wb_api_notifications/422",
       "published_at": "2026-06-11T11:46:24+00:00",
       "content_hash": "8e562302d51abb0bc2205177fb4c1b7fc84ef0e51c12eeb6d407e1199c459628",
-      "fetched_at": "2026-06-22T05:04:32.935051+00:00"
+      "fetched_at": "2026-06-22T11:15:17.557361+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market API TG",
@@ -478,7 +490,7 @@
       "link": "https://t.me/yandex_market_api/272",
       "published_at": "2026-06-11T05:20:35+00:00",
       "content_hash": "cc62e46acf3518724bf66b5508ef55e77ede59aa54f17dd2b8e815b987585fa0",
-      "fetched_at": "2026-06-22T05:04:34.881883+00:00"
+      "fetched_at": "2026-06-22T11:15:19.272219+00:00"
     },
     {
       "source_name": "OFFICIAL: WB API Notifications TG",
@@ -490,7 +502,7 @@
       "link": "https://t.me/wb_api_notifications/421",
       "published_at": "2026-06-10T13:43:37+00:00",
       "content_hash": "22097c3111906998ce3bbf2c221d2b5c01da915fa2be8ba6ca48655abbdcae46",
-      "fetched_at": "2026-06-22T05:04:32.934763+00:00"
+      "fetched_at": "2026-06-22T11:15:17.557070+00:00"
     },
     {
       "source_name": "OFFICIAL: Ozon Marketplace TG",
@@ -502,7 +514,7 @@
       "link": "https://t.me/ozonmarketplace/3146",
       "published_at": "2026-06-09T16:22:38+00:00",
       "content_hash": "8873e8159b4176757530a97861ee986930ed75d06c78a09fe4b57255889d116e",
-      "fetched_at": "2026-06-22T05:04:31.332971+00:00"
+      "fetched_at": "2026-06-22T11:15:16.329921+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market Sellers TG",
@@ -514,7 +526,7 @@
       "link": "https://t.me/market_marketplace/2788",
       "published_at": "2026-06-09T07:33:36+00:00",
       "content_hash": "1753ddf1fe2ac6b3ffafad21827d403582e141ddc4f7626cb77be4c8cda95480",
-      "fetched_at": "2026-06-22T05:04:33.796703+00:00"
+      "fetched_at": "2026-06-22T11:15:18.597434+00:00"
     },
     {
       "source_name": "OFFICIAL: WB API Notifications TG",
@@ -526,7 +538,7 @@
       "link": "https://t.me/wb_api_notifications/420",
       "published_at": "2026-06-08T15:03:12+00:00",
       "content_hash": "1a65588a8c93465eb81958d57d8eb53a6d7c4953b78262d2db164d838c60e6af",
-      "fetched_at": "2026-06-22T05:04:32.934412+00:00"
+      "fetched_at": "2026-06-22T11:15:17.556712+00:00"
     },
     {
       "source_name": "OFFICIAL: Ozon Marketplace TG",
@@ -538,7 +550,7 @@
       "link": "https://t.me/ozonmarketplace/3145",
       "published_at": "2026-06-06T08:37:11+00:00",
       "content_hash": "60b1e7e05aa6c2dd0085318f3dd0be057c8837e775edb7057506e0e963d58c27",
-      "fetched_at": "2026-06-22T05:04:31.332411+00:00"
+      "fetched_at": "2026-06-22T11:15:16.329324+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market Sellers TG",
@@ -550,7 +562,7 @@
       "link": "https://t.me/market_marketplace/2787",
       "published_at": "2026-06-05T14:25:38+00:00",
       "content_hash": "8317c604b7ab6fa4517b6d0a95cbaa08834b1bd21bf14bf1e2f2347addaa84ea",
-      "fetched_at": "2026-06-22T05:04:33.796254+00:00"
+      "fetched_at": "2026-06-22T11:15:18.596942+00:00"
     },
     {
       "source_name": "OFFICIAL: Ozon Marketplace TG",
@@ -562,7 +574,7 @@
       "link": "https://t.me/ozonmarketplace/3144",
       "published_at": "2026-06-05T12:46:19+00:00",
       "content_hash": "710c63b0f9d2a85d0eeb02673113a78143eddec69099be876304aa664dd2a8fb",
-      "fetched_at": "2026-06-22T05:04:31.331847+00:00"
+      "fetched_at": "2026-06-22T11:15:16.328682+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market API TG",
@@ -574,7 +586,7 @@
       "link": "https://t.me/yandex_market_api/271",
       "published_at": "2026-06-05T07:37:08+00:00",
       "content_hash": "6505455c885deba47f67fb9c76140f39cee3dff8c9ae2bf725ad6ed7e747abfc",
-      "fetched_at": "2026-06-22T05:04:34.881663+00:00"
+      "fetched_at": "2026-06-22T11:15:19.271982+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market Sellers TG",
@@ -586,7 +598,7 @@
       "link": "https://t.me/market_marketplace/2786",
       "published_at": "2026-06-04T15:51:46+00:00",
       "content_hash": "167935af6cefff1c34455f99d88b834ce35f63137a5846213a05706a34cf49f4",
-      "fetched_at": "2026-06-22T05:04:33.795903+00:00"
+      "fetched_at": "2026-06-22T11:15:18.596494+00:00"
     },
     {
       "source_name": "OFFICIAL: Ozon Marketplace TG",
@@ -598,7 +610,7 @@
       "link": "https://t.me/ozonmarketplace/3138",
       "published_at": "2026-06-04T15:45:30+00:00",
       "content_hash": "b8b1bc381cbdab6a1c9c7cc65c19fd7e134fd6038aa6dfac5553fcc93a510b64",
-      "fetched_at": "2026-06-22T05:04:31.331314+00:00"
+      "fetched_at": "2026-06-22T11:15:16.328095+00:00"
     },
     {
       "source_name": "OFFICIAL: WB API Notifications TG",
@@ -610,7 +622,7 @@
       "link": "https://t.me/wb_api_notifications/419",
       "published_at": "2026-06-04T14:52:18+00:00",
       "content_hash": "5c03182ddb12a28cddc711cc703a8ea4003170eb91617e8ff8ca3244af4f0a39",
-      "fetched_at": "2026-06-22T05:04:32.933975+00:00"
+      "fetched_at": "2026-06-22T11:15:17.556201+00:00"
     },
     {
       "source_name": "OFFICIAL: WB API Notifications TG",
@@ -622,7 +634,7 @@
       "link": "https://t.me/wb_api_notifications/418",
       "published_at": "2026-06-04T14:01:04+00:00",
       "content_hash": "58abfccc3ae074ff76640c77601430920c25fb94b20d8432d39eda3d24b1b9ff",
-      "fetched_at": "2026-06-22T05:04:32.933510+00:00"
+      "fetched_at": "2026-06-22T11:15:17.555699+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market API TG",
@@ -634,7 +646,7 @@
       "link": "https://t.me/yandex_market_api/270",
       "published_at": "2026-06-04T09:27:42+00:00",
       "content_hash": "e4ca34520c95287d8e5f2f22ab8687ddcf025b473f3bb38e5df7793a174d6b59",
-      "fetched_at": "2026-06-22T05:04:34.881408+00:00"
+      "fetched_at": "2026-06-22T11:15:19.271735+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market Sellers TG",
@@ -646,7 +658,7 @@
       "link": "https://t.me/market_marketplace/2785",
       "published_at": "2026-06-03T12:03:46+00:00",
       "content_hash": "d87b588c8edbbe0fc4e8172921639c28d203e3c7d6427917a4ec5b5349dc26db",
-      "fetched_at": "2026-06-22T05:04:33.795509+00:00"
+      "fetched_at": "2026-06-22T11:15:18.595936+00:00"
     },
     {
       "source_name": "OFFICIAL: WB API Notifications TG",
@@ -658,7 +670,7 @@
       "link": "https://t.me/wb_api_notifications/417",
       "published_at": "2026-06-03T11:23:58+00:00",
       "content_hash": "83ad9ec7bf8fd1d8e70995cb0e50e6314b65a64b420087cf86bd93f6554b4558",
-      "fetched_at": "2026-06-22T05:04:32.932922+00:00"
+      "fetched_at": "2026-06-22T11:15:17.555112+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market API TG",
@@ -670,7 +682,7 @@
       "link": "https://t.me/yandex_market_api/269",
       "published_at": "2026-06-03T08:23:25+00:00",
       "content_hash": "9e685a5c62bcb144f8b08b21b6897148aa9d3af3ec32b34e29d7813d5e83968a",
-      "fetched_at": "2026-06-22T05:04:34.881069+00:00"
+      "fetched_at": "2026-06-22T11:15:19.271392+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market Sellers TG",
@@ -682,7 +694,7 @@
       "link": "https://t.me/market_marketplace/2783",
       "published_at": "2026-06-02T14:31:42+00:00",
       "content_hash": "64299c3ac9ca71fe0aa832b33eab1a0b06348754bb677c38f18f5c33643dbc16",
-      "fetched_at": "2026-06-22T05:04:33.794878+00:00"
+      "fetched_at": "2026-06-22T11:15:18.595271+00:00"
     },
     {
       "source_name": "OFFICIAL: WB API Notifications TG",
@@ -694,7 +706,7 @@
       "link": "https://t.me/wb_api_notifications/416",
       "published_at": "2026-06-02T11:15:06+00:00",
       "content_hash": "e7cab8ab6475314ac19a0a98d1944742afc159c428e7a2a46d3c1c6aa66e6af8",
-      "fetched_at": "2026-06-22T05:04:32.932495+00:00"
+      "fetched_at": "2026-06-22T11:15:17.554656+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market Sellers TG",
@@ -706,7 +718,7 @@
       "link": "https://t.me/market_marketplace/2780",
       "published_at": "2026-06-01T07:30:23+00:00",
       "content_hash": "7682168ee9751cc3f2aae5a6f5b12f06a12a98df5d12227bdfd5b7c423ebc74f",
-      "fetched_at": "2026-06-22T05:04:33.794491+00:00"
+      "fetched_at": "2026-06-22T11:15:18.594830+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market Sellers TG",
@@ -718,7 +730,7 @@
       "link": "https://t.me/market_marketplace/2779",
       "published_at": "2026-05-29T15:45:42+00:00",
       "content_hash": "251902213850c661ee784094ee5143346598007a1fad5f7696a3bf31b7af543a",
-      "fetched_at": "2026-06-22T05:04:33.794101+00:00"
+      "fetched_at": "2026-06-22T11:15:18.594404+00:00"
     },
     {
       "source_name": "OFFICIAL: WB API Notifications TG",
@@ -730,7 +742,7 @@
       "link": "https://t.me/wb_api_notifications/415",
       "published_at": "2026-05-28T14:44:14+00:00",
       "content_hash": "97d134fa599bfed8a4683bab1ef1a0dcd0af93659845b7f49f825a2e06a8fcd6",
-      "fetched_at": "2026-06-22T05:04:32.932185+00:00"
+      "fetched_at": "2026-06-22T11:15:17.554337+00:00"
     },
     {
       "source_name": "OFFICIAL: WB API Notifications TG",
@@ -742,7 +754,7 @@
       "link": "https://t.me/wb_api_notifications/414",
       "published_at": "2026-05-28T08:00:42+00:00",
       "content_hash": "bb7d5837c842f85cbd93530baee17efd741e6f01cdc7c363b19b4b7dd3e38a54",
-      "fetched_at": "2026-06-22T05:04:32.931694+00:00"
+      "fetched_at": "2026-06-22T11:15:17.553811+00:00"
     },
     {
       "source_name": "OFFICIAL: WB API Notifications TG",
@@ -754,7 +766,7 @@
       "link": "https://t.me/wb_api_notifications/413",
       "published_at": "2026-05-26T11:46:16+00:00",
       "content_hash": "5852567859945e5eb9bdc40c19633accf496cc46697843faf611c1201289f0a2",
-      "fetched_at": "2026-06-22T05:04:32.931335+00:00"
+      "fetched_at": "2026-06-22T11:15:17.553466+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market API TG",
@@ -766,7 +778,7 @@
       "link": "https://t.me/yandex_market_api/268",
       "published_at": "2026-05-22T10:41:58+00:00",
       "content_hash": "0b1b29dbbb595d560ba8fdcc235b9449a6d129f59e6bac7c5b7cca4c5271804d",
-      "fetched_at": "2026-06-22T05:04:34.880818+00:00"
+      "fetched_at": "2026-06-22T11:15:19.271139+00:00"
     },
     {
       "source_name": "OFFICIAL: WB API Notifications TG",
@@ -778,7 +790,7 @@
       "link": "https://t.me/wb_api_notifications/412",
       "published_at": "2026-05-21T06:44:41+00:00",
       "content_hash": "718fb75bdaa3a0a5fdb2ce58c1837402f26af6f0c578dad84b74d713a296421b",
-      "fetched_at": "2026-06-22T05:04:32.930936+00:00"
+      "fetched_at": "2026-06-22T11:15:17.553033+00:00"
     },
     {
       "source_name": "OFFICIAL: WB API Notifications TG",
@@ -790,7 +802,7 @@
       "link": "https://t.me/wb_api_notifications/411",
       "published_at": "2026-05-20T12:32:25+00:00",
       "content_hash": "5208620b7a1a0a157170df24dd0c49facb0b52c49b7b0837308ab5fcfdf0751d",
-      "fetched_at": "2026-06-22T05:04:32.930461+00:00"
+      "fetched_at": "2026-06-22T11:15:17.552544+00:00"
     },
     {
       "source_name": "OFFICIAL: WB API Notifications TG",
@@ -802,7 +814,7 @@
       "link": "https://t.me/wb_api_notifications/410",
       "published_at": "2026-05-19T14:09:55+00:00",
       "content_hash": "999233d19b83978e53c235db7bc88aebf627217c257319e945cd9ced5b5e5782",
-      "fetched_at": "2026-06-22T05:04:32.930042+00:00"
+      "fetched_at": "2026-06-22T11:15:17.552095+00:00"
     },
     {
       "source_name": "OFFICIAL: WB API Notifications TG",
@@ -814,7 +826,7 @@
       "link": "https://t.me/wb_api_notifications/409",
       "published_at": "2026-05-19T12:01:04+00:00",
       "content_hash": "2e740289c8927f61e4218bcb8d59de0c1379d5682ccefa9151757ea56ed242d6",
-      "fetched_at": "2026-06-22T05:04:32.929707+00:00"
+      "fetched_at": "2026-06-22T11:15:17.551676+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market API TG",
@@ -826,7 +838,7 @@
       "link": "https://t.me/yandex_market_api/267",
       "published_at": "2026-05-19T00:00:54+00:00",
       "content_hash": "81eab75d6b9cf05c6d58cbefdc255e05ddbd69fbd3350d69ea1552953deb8bf5",
-      "fetched_at": "2026-06-22T05:04:34.880523+00:00"
+      "fetched_at": "2026-06-22T11:15:19.270829+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market API TG",
@@ -838,19 +850,7 @@
       "link": "https://t.me/yandex_market_api/266",
       "published_at": "2026-05-15T04:55:27+00:00",
       "content_hash": "fd658b2f82bd3aeac14846c04408a38070bca7d185b40d2cf3940048469afa7a",
-      "fetched_at": "2026-06-22T05:04:34.880268+00:00"
-    },
-    {
-      "source_name": "OFFICIAL: WB API Notifications TG",
-      "username": "wb_api_notifications",
-      "marketplace": "wildberries",
-      "post_id": "408",
-      "title": "#items Изменение в запросе метода получения карточек товаров Текущая схема значений параметра withPhoto в запросах метода POST /content/v2/get/cards/list : • \"withPhoto\":0 или отсу...",
-      "text": "#items Изменение в запросе метода получения карточек товаров Текущая схема значений параметра withPhoto в запросах метода POST /content/v2/get/cards/list : • \"withPhoto\":0 или отсутствие параметра — только карточки товаров без фото • \"withPhoto\":1 — только карточки товаров с фото • \"withPhoto\":-1 — любые карточки товаров, как без фото, так и с ними По техническим причинам с 3 июня будем использовать в запросах новую схему: • \"withPhoto\":0 или отсутствие параметра — любые карточки товаров • \"withPhoto\":1 — только карточки товаров с фото (не меняется) • \"withPhoto\":-1 — только карточки товаров без фото 📖 Журнал изменений WB API 💬 Сообщество WB API С уважением, команда WB API 🔗 Читайте в МАКС Change in Request for the Getting Listings Method The current schema of the withPhoto parameter values in the POST /content/v2/get/cards/list method requests: • \"withPhoto\":0 or missing the parameter — only listings without photos • \"withPhoto\":1 — only listings with photos • \"withPhoto\":-1 — any listings, both without photos and with them For technical reasons, starting from June 3 we will use the new scheme in requests: • \"withPhoto\":0 or missing the parameter — any listings • \"withPhoto\":1 — only listings with photos (no change) • \"withPhoto\":-1 — only listings without photos 📖 WB API Release Notes Best regards, WB API team",
-      "link": "https://t.me/wb_api_notifications/408",
-      "published_at": "2026-05-14T14:52:50+00:00",
-      "content_hash": "c9baaaebd2f621a040d4ab09ebd195e4acca042eb03d2fab99a530cf4c8cd13e",
-      "fetched_at": "2026-06-22T05:04:32.929336+00:00"
+      "fetched_at": "2026-06-22T11:15:19.270578+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market API TG",
@@ -862,7 +862,7 @@
       "link": "https://t.me/yandex_market_api/263",
       "published_at": "2026-05-12T06:32:56+00:00",
       "content_hash": "1788b18e145a47ae19dbe5edd5ab18d0caf6f9d4c95ab845a122c95d6621b357",
-      "fetched_at": "2026-06-22T05:04:34.879972+00:00"
+      "fetched_at": "2026-06-22T11:15:19.270277+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market API TG",
@@ -874,7 +874,7 @@
       "link": "https://t.me/yandex_market_api/262",
       "published_at": "2026-04-24T15:37:23+00:00",
       "content_hash": "379b64fd41f46e20d624b862957b1847ef0989a833770930012e0e964d85f7bd",
-      "fetched_at": "2026-06-22T05:04:34.879614+00:00"
+      "fetched_at": "2026-06-22T11:15:19.269885+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market API TG",
@@ -886,7 +886,7 @@
       "link": "https://t.me/yandex_market_api/261",
       "published_at": "2026-04-24T14:59:45+00:00",
       "content_hash": "55249461c4ac3efaa639a70005d5d9ede2870a4d8e3f526d50d6d99f1b24293e",
-      "fetched_at": "2026-06-22T05:04:34.879037+00:00"
+      "fetched_at": "2026-06-22T11:15:19.269260+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market API TG",
@@ -898,7 +898,7 @@
       "link": "https://t.me/yandex_market_api/260",
       "published_at": "2026-04-21T12:30:55+00:00",
       "content_hash": "74e1e9a29ebcc890d1e24b809a8d8a8af94f2bf40804537e9883369416efb134",
-      "fetched_at": "2026-06-22T05:04:34.878367+00:00"
+      "fetched_at": "2026-06-22T11:15:19.268524+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market API TG",
@@ -910,7 +910,7 @@
       "link": "https://t.me/yandex_market_api/259",
       "published_at": "2026-04-21T12:25:25+00:00",
       "content_hash": "3c0966fcd571568ddcce95218c659feea2c05c264dab9aadcefbcd952825f908",
-      "fetched_at": "2026-06-22T05:04:34.877976+00:00"
+      "fetched_at": "2026-06-22T11:15:19.268120+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market API TG",
@@ -922,7 +922,7 @@
       "link": "https://t.me/yandex_market_api/258",
       "published_at": "2026-04-21T12:16:52+00:00",
       "content_hash": "d791990b260249a9e5395dfdb60527dc863dda1d7e2b5ea8bb1174b15ebd7afe",
-      "fetched_at": "2026-06-22T05:04:34.877353+00:00"
+      "fetched_at": "2026-06-22T11:15:19.267455+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market API TG",
@@ -934,7 +934,7 @@
       "link": "https://t.me/yandex_market_api/257",
       "published_at": "2026-04-21T10:33:36+00:00",
       "content_hash": "9ea49f00a6f9fed24bdc6d9f265800721e4cc1a64958c23493f0b3a13811bcf0",
-      "fetched_at": "2026-06-22T05:04:34.876850+00:00"
+      "fetched_at": "2026-06-22T11:15:19.266911+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market API TG",
@@ -946,7 +946,7 @@
       "link": "https://t.me/yandex_market_api/256",
       "published_at": "2026-04-03T15:14:10+00:00",
       "content_hash": "e7317f640ca0fe57dff7efe928b606f7c0287e07b17e22979468af11053f7955",
-      "fetched_at": "2026-06-22T05:04:34.876091+00:00"
+      "fetched_at": "2026-06-22T11:15:19.266121+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market API TG",
@@ -958,7 +958,7 @@
       "link": "https://t.me/yandex_market_api/255",
       "published_at": "2026-04-03T14:28:55+00:00",
       "content_hash": "774b6586b36af5075402a6b90aeb04b8c81a3c96f2da0846412484b82fe6c005",
-      "fetched_at": "2026-06-22T05:04:34.875707+00:00"
+      "fetched_at": "2026-06-22T11:15:19.265707+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market API TG",
@@ -970,7 +970,7 @@
       "link": "https://t.me/yandex_market_api/251",
       "published_at": "2026-03-27T15:28:58+00:00",
       "content_hash": "319a1f1d6cc6e76195d3ceb5c8756e0e03c6fd679dbfe384e1b5666ade6e01af",
-      "fetched_at": "2026-06-22T05:04:34.875180+00:00"
+      "fetched_at": "2026-06-22T11:15:19.265161+00:00"
     },
     {
       "source_name": "OFFICIAL: Ozon Marketplace TG",
@@ -982,7 +982,7 @@
       "link": "https://t.me/ozonmarketplace/3154",
       "published_at": "",
       "content_hash": "6b5bb106dac6dbfcd0181f6ae46c720fd37d2e69ea6ef027f596230d7d41725e",
-      "fetched_at": "2026-06-22T05:04:31.335343+00:00"
+      "fetched_at": "2026-06-22T11:15:16.332539+00:00"
     },
     {
       "source_name": "OFFICIAL: WB Partners TG",
@@ -994,7 +994,7 @@
       "link": "https://t.me/wbsellerofficial/6448",
       "published_at": "",
       "content_hash": "78095ecc5b41633800628199ece212dcee68646b545103e77e756bbc43ec1c43",
-      "fetched_at": "2026-06-22T05:04:32.248010+00:00"
+      "fetched_at": "2026-06-22T11:15:16.946358+00:00"
     },
     {
       "source_name": "OFFICIAL: Yandex Market Sellers TG",
@@ -1006,7 +1006,7 @@
       "link": "https://t.me/market_marketplace/2784",
       "published_at": "",
       "content_hash": "b899a0765e48f31ffaa4419a410eaf291e16b895670cd6d46ed1106b0d1c17fd",
-      "fetched_at": "2026-06-22T05:04:33.795180+00:00"
+      "fetched_at": "2026-06-22T11:15:18.595590+00:00"
     }
   ]
 }
